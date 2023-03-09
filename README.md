@@ -21,7 +21,7 @@ This library is based on [brick/math](https://github.com/brick/math) and handles
 This library is installable via [Composer](https://getcomposer.org/):
 
 ```bash
-composer require brick/money
+composer require zuhaili92/money
 ```
 
 ### Requirements
