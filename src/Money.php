@@ -518,7 +518,7 @@ final class Money extends AbstractMoney
      *
      * @throws \InvalidArgumentException If called with invalid parameters.
      */
-    public function allocate(int ...$ratios) : array
+    public function allocate(float ...$ratios) : array
     {
         if (! $ratios) {
             throw new \InvalidArgumentException('Cannot allocate() an empty list of ratios.');
